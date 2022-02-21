@@ -1,0 +1,19 @@
+algoritmo "Questão 1. C"
+//Escrever um algoritmo que recupere dois números e faça:
+//c) Determine a média entre eles
+var
+
+   media,n1,n2:real
+inicio
+   escreval("---------------------------")
+   escreva("Digite o primeiro número: ")
+   leia(n1)
+   escreva("Digite o segundo número: ")
+   leia(n2)
+   media<- (n1+n2)/2
+   escreval("  ")
+   escreval("A média deles é: ",media)
+
+
+
+fimalgoritmo

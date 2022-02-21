@@ -1,0 +1,32 @@
+Algoritmo "Questão 7"
+// 7) O operador fornece o consumo de energia elétrica mensal em Kwh,
+//escreva um algoritmo para calcular a conta de energia elétrica
+//de um estabelecimento, considerando a tabela de valores.
+
+Var
+   v1,v2,v3,v4:inteiro
+   cons, cust:real
+
+
+Inicio
+   escreval("Consumo de Energia")
+   escreval(" ")
+   escreva("Digite o valor do Consumo: ")
+   leia(cons)
+   se (cons<=300) entao
+      cust <- cons*1.25
+   senao
+      se (cons>=301) e (cons<=600)entao
+         cust <- cons*1.50
+      senao
+         se (cons>=601) e (cons<1000) entao
+            cust<-cons*1.75
+         senao (cons>1001) entao
+            cust<-cons*2.00
+         fimse
+      fimse
+   fimse
+   escreval(" ")
+   escreval("O valor a ser pago é de: ", cust)
+
+Fimalgoritmo

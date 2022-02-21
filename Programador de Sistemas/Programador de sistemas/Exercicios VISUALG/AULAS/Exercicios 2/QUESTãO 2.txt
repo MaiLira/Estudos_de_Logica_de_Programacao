@@ -1,0 +1,24 @@
+Algoritmo "Questão 2.A"
+// 2) Escreva um algoritmo que leia a idade de uma pessoa de diga se ela:
+//a) Pode ou não votar; (permitido votar com idade de 16 anos a cima)
+Var
+anot,anonasc,idade:inteiro
+
+
+Inicio
+escreval("=============================================")
+escreval("Ano atual: ")
+leia(anot)
+escreval("Ano de Nascimento: ")
+leia(anonasc)
+idade<- anot-anonasc
+Escreval("Idade: ", idade)
+Escreval(" ")
+se(idade>=16)entao
+escreval("Você está apto a votar! =)")
+senao
+escreval("Você ainda não pode votar. :(")
+fimse
+escreval("=============================================")
+
+Fimalgoritmo

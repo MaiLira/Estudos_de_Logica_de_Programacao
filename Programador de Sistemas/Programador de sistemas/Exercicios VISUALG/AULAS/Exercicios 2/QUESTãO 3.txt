@@ -1,0 +1,18 @@
+Algoritmo "Questão 3"
+//Escrever um algoritmo que lê um número inteiro e imprime o valor
+//resultante deste número elevado a quinta potência
+Var
+   num, result:real
+
+
+Inicio
+   escreval("CALCULANDO")
+   escrevaL("  ")
+   escreva("Digite um número: ")
+   leia(num)
+   result<-num^5
+   escrevaL("  ")
+   escreval("Resultado: ",num, " elevado a quinta potencia é igual a ", result)
+
+
+Fimalgoritmo

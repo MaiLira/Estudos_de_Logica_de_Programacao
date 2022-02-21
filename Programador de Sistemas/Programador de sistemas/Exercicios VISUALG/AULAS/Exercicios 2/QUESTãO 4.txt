@@ -1,0 +1,25 @@
+Algoritmo "Questão 4"
+//4) Faça um algoritmo que apresente todos os números
+//divisíveis por 4 que sejam menores que 200.
+
+var
+   n:inteiro
+   cont:inteiro
+   divi:inteiro
+
+inicio
+   escreval("=========================")
+
+   cont<-1
+   enquanto cont<=200 faca
+      se cont % 4 = 0 entao
+         escreval(cont)
+         divi<- divi+1
+      fimse
+      cont<-cont+1
+   fimenquanto
+   escreval(" ")
+   escreval("Total do n° divisiveis por 4: ", divi)
+
+
+Fimalgoritmo

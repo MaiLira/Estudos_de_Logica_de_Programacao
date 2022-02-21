@@ -1,0 +1,22 @@
+Algoritmo "Questão 13"
+// 13) Escrever um algoritmo que lê uma sequência de números inteiros
+//até que seja lido o valor zero e imprime a soma dos números lidos.
+Var
+   n1, soma,cont:inteiro
+
+
+Inicio
+   escreval("===============================")
+      n1<-1
+   enquanto n1 <> 0 faca
+   escreval("Digite um número: ")
+   leia(n1)
+   
+   soma <- soma + n1
+
+      fimenquanto
+      Escreval("  ")
+      escreval ("A soma é: ",soma)
+
+
+Fimalgoritmo

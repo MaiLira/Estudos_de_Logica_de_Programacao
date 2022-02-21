@@ -1,0 +1,23 @@
+Algoritmo "Questão 5"
+//5) Escrever um algoritmo que lê um número inteiro e
+//imprime os próximos dez números pares existentes.
+
+var
+   soma, n:inteiro
+   cont:inteiro
+
+inicio
+   escreval("=========================")
+   escreva("Escolha um número inteiro: ")
+   leia(n)
+   se n % 2 = 0 entao
+      para cont <- n ate n+20 passo 2 faça
+         escreval(cont)
+      fimpara
+   senao n % 2 = 1 entao
+      para cont <- n +1 ate n+20 passo 2 faça
+      escreval(cont)
+      fimpara
+   fimse
+
+Fimalgoritmo

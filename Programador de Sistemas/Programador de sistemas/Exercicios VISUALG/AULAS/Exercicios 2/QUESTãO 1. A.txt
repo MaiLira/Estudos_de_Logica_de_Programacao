@@ -1,0 +1,19 @@
+algoritmo "Questão 1. A"
+
+var
+n1,n2:inteiro
+
+inicio
+Escreval("--------------------------------------")
+Escreval("Digite o primeiro valor: ")
+leia(n1)
+Escreval("Digite o segundo valor: ")
+leia(n2)
+se(n1>n2)entao
+escreval("O Maior é: ",n1)
+senao(n2>n1)
+escreval("O Maior é: ",n2)
+fimse
+
+
+fimalgoritmo

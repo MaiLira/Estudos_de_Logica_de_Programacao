@@ -1,0 +1,25 @@
+Algoritmo "Questão 2.B"
+// 2) Escreva um algoritmo que leia a idade de uma pessoa de diga se ela:
+//b) É de maior;
+Var
+anot,anonasc,idade:inteiro
+
+
+Inicio
+escreval("MAIORIDADE")
+escreval("=============================================")
+escreval("Ano atual: ")
+leia(anot)
+escreval("Ano de Nascimento: ")
+leia(anonasc)
+idade<- anot-anonasc
+Escreval("Idade: ", idade)
+Escreval(" ")
+se(idade>=18)entao
+escreval("VOCÊ É DE MAIOR!")
+senao
+escreval("VOCÊ NÃO É DE MAIOR!")
+fimse
+escreval("=============================================")
+
+Fimalgoritmo

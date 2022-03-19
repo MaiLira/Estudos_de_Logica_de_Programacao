@@ -1,5 +1,6 @@
 # _Repósitorio de Exercicios de Aula_ <h1>
-Lógica de programaação com Portugol e o VisuAlg 
+Exercicios de Lógica de programaação com Portugol e o VisuAlg, material referente ao curso Programador de Sistemas do SENAC-PE
+ 
 * Status: Concluído ✔️
   
   
